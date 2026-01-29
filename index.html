@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>最終課題</title>
+    <link rel="stylesheet" href="css/compass.css">
+    <script src="js/script.js" type="text/javascript" charset="utf-8" defer></script>
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li>TOP</li>
+            <li onclick="navigateToRole()">HERO</li>
+            <li onclick="handleSecretClick()" style="cursor: pointer;">SECRET</li>
+        </ul>
+    </nav>
+    <div>
+        <h1><a href="https://app.nhn-playart.com/compass/" target="_blank" class="hidden-link">#コンパス</a></h1>
+        <p>コンパスは、三分間で5つのキーを取り合いつつ四枚のカードとキャラ別のスキルを組み合わせた3vs3のリアルタイムオンライン対戦ゲームです<a href="secret/himitu.html"
+                style="color: #f0f0f0; text-decoration: none;">________</a></p>
+        <p>今回は、その中でも人気なキャラクターをいくつかピックアップしました。</p>
+
+    </div>
+
+    <!-- 役職フィルター -->
+    <div class="role-filter">
+        <button class="role-btn" data-role="sprinter" onclick="filterRole('sprinter')">スプリンター</button>
+        <button class="role-btn" data-role="tank" onclick="filterRole('tank')">タンク</button>
+        <button class="role-btn" data-role="attacker" onclick="filterRole('attacker')">アタッカー</button>
+        <button class="role-btn" data-role="gunner" onclick="filterRole('gunner')">ガンナー</button>
+        <button class="role-btn reset" data-role="reset" onclick="filterRole('reset')">リセット</button>
+    </div>
+
+    <div class="gallery">
+        <!-- スプリンター　-->
+        <a href="sprinter/voidoll.html"><img src="img/voidoll.png" alt="Voidoll" data-role="sprinter"></a>
+        <a href="sprinter/tesura.html"><img src="img/tesura.png" alt="テスラ" data-role="sprinter"></a>
+        <a href="sprinter/reiya.html"><img src="img/reiya.png" alt="レイヤ" data-role="sprinter"></a>
+        <!-- タンク　-->
+        <a href="tank/onigasiki.html"><img src="img/onigasiki.png" alt="鬼ヶ崎" data-role="tank"></a>
+        <a href="tank/ravi.html"><img src="img/ravi.png" alt="ラヴィ" data-role="tank"></a>
+        <a href="tank/gusutahu.html"><img src="img/gusutahu.png" alt="グスタフ" data-role="tank"></a>
+        <a href="tank/arisu.html"><img src="img/arisu.png" alt="アリス" data-role="tank"></a>
+        <!-- アタッカー -->
+        <a href="attacker/adamu.html"><img src="img/adamu.png" alt="アダム" data-role="attacker"></a>
+        <a href="attacker/sutelia.html"><img src="img/sutelia.png" alt="ステリア" data-role="attacker"></a>
+        <a href="attacker/amairo.html"><img src="img/amairo.png" alt="狐ヶ崎甘色" data-role="attacker"></a>
+        <a href="attacker/9-4.html"><img src="img/9-4.png" alt="9-4" data-role="attacker"></a>
+        <!-- ガンナー -->
+        <a href="gunner/sonn.html"><img src="img/sonn.png" alt="ソーン" data-role="gunner"></a>
+        <a href="gunner/ririka.html"><img src="img/ririka.png" alt="リリカ" data-role="gunner"></a>
+        <a href="gunner/bugdoll.html"><img src="img/bugdoll.png" alt="バグドール" data-role="gunner"></a>
+        <a href="gunner/13.html"><img src="img/13.png" alt="13" data-role="gunner"></a>
+        <a href="gunner/rinne.html"><img src="img/rinne.png" alt="リンネ" data-role="gunner"></a>
+        <a href="attacker/ruruka.html"><img src="img/ruruka.png" alt="ルルカ" data-role="attacker"></a>
+    </div>
+    <a href="secret/himitu.html"
+        style="position: fixed; bottom: 0; right: 0; color: #f0f0f0; text-decoration: none; font-size: 10px; z-index: 9999;">.</a>
+</body>
+<small>2501529 伊規須一希</small>
+
+</html>
