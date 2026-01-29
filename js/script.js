@@ -1,4 +1,4 @@
-// HEROクリック時の役職選択機能
+﻿// HEROクリック時の役職選択機能
 function navigateToRole() {
     const input = prompt('役職名を入力してください（スプリンター / タンク / アタッカー / ガンナー）:');
 
@@ -28,7 +28,7 @@ function navigateToRole() {
 function handleSecretClick() {
     const answer = prompt("ニコニコを数字に変えると...?");
     if (answer === '2525') {
-        alert("URLの「最終課題.html」を「secret/最終課題00.html」に変えると...?");
+        alert("URLの「index.html」を「secret/最終課題00.html」に変えると...?");
     }
 }
 

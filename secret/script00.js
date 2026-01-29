@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+﻿document.addEventListener('DOMContentLoaded', () => {
     const secretTrigger = document.getElementById('secret-trigger');
     const resultContainer = document.getElementById('result-container');
     const niconicoLink = document.getElementById('niconico-link');
