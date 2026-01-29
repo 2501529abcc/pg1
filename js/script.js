@@ -28,7 +28,7 @@ function navigateToRole() {
 function handleSecretClick() {
     const answer = prompt("ニコニコを数字に変えると...?");
     if (answer === '2525') {
-        alert("URLの「index.html」を「secret/最終課題00.html」に変えると...?");
+        alert("URLの「/」最後に「secret/最終課題00.html」を入力すると...?");
     }
 }
 
