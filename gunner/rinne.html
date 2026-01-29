@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>リンネ - #コンパス</title>
+    <link rel="stylesheet" href="../css/compass.css">
+    <script src="../js/script.js" defer></script>
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="../最終課題.html">TOP</a></li>
+            <li class="active">HERO</li>
+            <li onclick="handleSecretClick()" style="cursor: pointer;">SECRET</li>
+        </ul>
+    </nav>
+
+    <div class="character-detail-full">
+        <!-- 左側：キャラクター画像 -->
+        <div class="character-image-large">
+            <img src="../img/rinne.png" alt="リンネ">
+        </div>
+
+        <!-- 右側：キャラクター情報 -->
+        <div class="character-info-full">
+            <h1>糸廻 輪廻</h1>
+            <p class="description">
+                糸廻輪廻（いとめぐりりんね）は、罠カードを使った攻撃を得意とするガンナーです。
+                HAで相手を引き寄せて拘束し、周囲に超火力の爆弾をばら撒くHSで特定エリアを制圧します。
+                アビリティにより罠カードの使い勝手が向上し、テクニカルな戦いが可能です。
+            </p>
+            <p class="description">人によってはきもいプレイングが可能です。まどろっこしい戦い方が好きな方向け。</p>
+
+            <!-- スキル情報 -->
+            <div class="skill-section">
+                <h2>スキル</h2>
+
+                <div class="skill-item">
+                    <h3>HS（ヒーロースキル）</h3>
+                    <p class="skill-name">操糸操術 Ж 傀儡機雷</p>
+                    <p class="skill-desc">周囲に手作りあみぐるみ機雷を設置（敵接触で爆発）</p>
+                </div>
+
+                <div class="skill-item">
+                    <h3>HA（ヒーローアクション）</h3>
+                    <p class="skill-name">引き寄せ / 操糸操術 Ж 緊縛</p>
+                    <p class="skill-desc">長押し：指定範囲に引き寄せ攻撃</p>
+                </div>
+
+                <div class="skill-item">
+                    <h3>アビリティ</h3>
+                    <p class="skill-name">操糸操術 Ж 八方画策</p>
+                    <p class="skill-desc">罠カード遠隔設置+威力上昇+クールダウン短縮+発動「無」</p>
+                </div>
+            </div>
+
+            <!-- ステータス -->
+            <div class="status-section">
+                <h2>ステータス</h2>
+                <table class="status-table">
+                    <tbody>
+                        <tr>
+                            <td>攻撃</td>
+                            <td>1.40</td>
+                        </tr>
+                        <tr>
+                            <td>防御</td>
+                            <td>0.70</td>
+                        </tr>
+                        <tr>
+                            <td>体力</td>
+                            <td>0.95</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- テーマソング -->
+    <div class="theme-song">
+        <h2>テーマソング</h2>
+        <p class="song-title">「孤独毒毒」 - syudou</p>
+        <a href="https://www.youtube.com/watch?v=_FhgjDhBAWI" target="_blank" class="youtube-link">
+            <div class="youtube-thumbnail">
+                <img src="https://img.youtube.com/vi/_FhgjDhBAWI/hqdefault.jpg" alt="孤独毒毒">
+                <div class="play-button"></div>
+            </div>
+            <p class="youtube-text">▶ YouTubeで見る</p>
+        </a>
+        <p class="youtube-notice">※クリックするとYouTubeの外部サイトに移動します</p>
+    </div>
+
+    <div class="back-link">
+        <a href="gunner.html">← ガンナー一覧に戻る</a>
+        <a href="../最終課題.html">TOPに戻る</a>
+    </div>
+</body>
+
+</html>

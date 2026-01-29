@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>9-4 - #コンパス</title>
+    <link rel="stylesheet" href="../css/compass.css">
+    <script src="../js/script.js" defer></script>
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="../最終課題.html">TOP</a></li>
+            <li class="active">HERO</li>
+            <li onclick="handleSecretClick()" style="cursor: pointer;">SECRET</li>
+        </ul>
+    </nav>
+
+    <div class="character-detail-full">
+        <!-- 左側：キャラクター画像 -->
+        <div class="character-image-large">
+            <!-- ユーザー指示により画像パスは9-4のまま -->
+            <img src="../img/9-4.png" alt="クー・シー">
+        </div>
+
+        <!-- 右側：キャラクター情報 -->
+        <div class="character-info-full">
+            <h1>クー・シー</h1>
+            <p class="description">
+                クー・シーは、高い防御倍率とスプリンター並の移動速度を持つアタッカーです。
+                3種類の形態を持つ「ニャーク」をHAで切り替え、戦況に応じた柔軟な立ち回りが可能です。
+                ただし体力倍率が非常に低いため、HSやアビリティ、カードを駆使して生存率を高める必要があります。
+            </p>
+            <p class="description">HSは短時間ですが、HAが超強力な行動に変わります。一気に大逆転を狙いましょう。</p>
+
+            <!-- スキル情報 -->
+            <div class="skill-section">
+                <h2>スキル</h2>
+
+                <div class="skill-item">
+                    <h3>HS（ヒーロースキル）</h3>
+                    <p class="skill-name">デリートモード ≡ NYAN-NYAN ≡</p>
+                    <p class="skill-desc">一時的にHA威力大幅強化＋防御極大アップ（12倍）＋全回復</p>
+                </div>
+
+                <div class="skill-item">
+                    <h3>HA（ヒーローアクション）</h3>
+                    <p class="skill-name">多段変形式ユニット ≡ NYARK ≡</p>
+                    <p class="skill-desc">
+                        アピールで3種の形態（ブレード/ワープ/シールド）を切り替える<br>
+                        長押し：各形態に応じた攻撃
+                    </p>
+                </div>
+
+                <div class="skill-item">
+                    <h3>アビリティ</h3>
+                    <p class="skill-name">多段変形式ユニット ≡ NYARK ≡</p>
+                    <p class="skill-desc">アピール操作でニャークのモードを変更できる</p>
+                </div>
+            </div>
+
+            <!-- ステータス -->
+            <div class="status-section">
+                <h2>ステータス</h2>
+                <table class="status-table">
+                    <tbody>
+                        <tr>
+                            <td>攻撃</td>
+                            <td>1.05</td>
+                        </tr>
+                        <tr>
+                            <td>防御</td>
+                            <td>1.50</td>
+                        </tr>
+                        <tr>
+                            <td>体力</td>
+                            <td>0.55</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- テーマソング -->
+    <div class="theme-song">
+        <h2>テーマソング</h2>
+        <p class="song-title">「ディメンション」 - 雄之助</p>
+        <a href="https://www.youtube.com/watch?v=tM6S7sUn1qw" target="_blank" class="youtube-link">
+            <div class="youtube-thumbnail">
+                <!-- YouTubeサムネイル -->
+                <img src="https://img.youtube.com/vi/tM6S7sUn1qw/hqdefault.jpg" alt="ディメンション">
+                <div class="play-button"></div>
+            </div>
+            <p class="youtube-text">▶ YouTubeで見る</p>
+        </a>
+        <p class="youtube-notice">※クリックするとYouTubeの外部サイトに移動します</p>
+    </div>
+
+    <div class="back-link">
+        <a href="attacker.html">← アタッカー一覧に戻る</a>
+        <a href="../最終課題.html">TOPに戻る</a>
+    </div>
+</body>
+
+</html>

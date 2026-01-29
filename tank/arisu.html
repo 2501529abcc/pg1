@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>アリス - #コンパス</title>
+    <link rel="stylesheet" href="../css/compass.css">
+    <script src="../js/script.js" defer></script>
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="../最終課題.html">TOP</a></li>
+            <li class="active">HERO</li>
+            <li onclick="handleSecretClick()" style="cursor: pointer;">SECRET</li>
+        </ul>
+    </nav>
+
+    <div class="character-detail-full">
+        <!-- 左側：キャラクター画像 -->
+        <div class="character-image-large">
+            <img src="../img/arisu.png" alt="アリス">
+        </div>
+
+        <!-- 右側：キャラクター情報 -->
+        <div class="character-info-full">
+            <h1>青春アリス</h1>
+            <p class="description">
+                青春アリスは、周囲の味方の攻撃力を強化する支援型タンクです。
+                HAでトランプの壁を作り出し、敵を押し出しつつ安全地帯を確保するのが得意です。
+                HSを使えば味方の元へ瞬時に移動できるため、カバー性能にも優れています。
+            </p>
+            <p class="description">HSでは遠くの味方に一瞬で飛ぶことが可能です。困っていたら助けてあげましょう。</p>
+
+            <!-- スキル情報 -->
+            <div class="skill-section">
+                <h2>スキル</h2>
+
+                <div class="skill-item">
+                    <h3>HS（ヒーロースキル）</h3>
+                    <p class="skill-name">鏡の国のアリス</p>
+                    <p class="skill-desc">鏡の国を通り、前方の味方の位置へワープ（一時無敵）</p>
+                </div>
+
+                <div class="skill-item">
+                    <h3>HA（ヒーローアクション）</h3>
+                    <p class="skill-name">不思議のトランプ</p>
+                    <p class="skill-desc">前方にトランプ兵を召喚し、防御壁展開＋敵押し出し</p>
+                </div>
+
+                <div class="skill-item">
+                    <h3>アビリティ</h3>
+                    <p class="skill-name">不思議の国のアリス</p>
+                    <p class="skill-desc">周囲の味方の攻撃力をアップさせる（常時発動）</p>
+                </div>
+            </div>
+
+            <!-- ステータス -->
+            <div class="status-section">
+                <h2>ステータス</h2>
+                <table class="status-table">
+                    <tbody>
+                        <tr>
+                            <td>攻撃</td>
+                            <td>0.75</td>
+                        </tr>
+                        <tr>
+                            <td>防御</td>
+                            <td>0.60</td>
+                        </tr>
+                        <tr>
+                            <td>体力</td>
+                            <td>1.45</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- テーマソング -->
+    <div class="theme-song">
+        <h2>テーマソング</h2>
+        <p class="song-title">「アリスブルー」 - HoneyWorks</p>
+        <a href="https://www.youtube.com/watch?v=GZy-zHU1daw" target="_blank" class="youtube-link">
+            <div class="youtube-thumbnail">
+                <img src="https://img.youtube.com/vi/GZy-zHU1daw/hqdefault.jpg" alt="アリスブルー">
+                <div class="play-button"></div>
+            </div>
+            <p class="youtube-text">▶ YouTubeで見る</p>
+        </a>
+        <p class="youtube-notice">※クリックするとYouTubeの外部サイトに移動します</p>
+    </div>
+
+    <div class="back-link">
+        <a href="tank.html">← タンク一覧に戻る</a>
+        <a href="../最終課題.html">TOPに戻る</a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ラヴィ - #コンパス</title>
+    <link rel="stylesheet" href="../css/compass.css">
+    <script src="../js/script.js" defer></script>
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="../最終課題.html">TOP</a></li>
+            <li class="active">HERO</li>
+            <li onclick="handleSecretClick()" style="cursor: pointer;">SECRET</li>
+        </ul>
+    </nav>
+
+    <div class="character-detail-full">
+        <!-- 左側：キャラクター画像 -->
+        <div class="character-image-large">
+            <img src="../img/ravi.png" alt="ラヴィ">
+        </div>
+
+        <!-- 右側：キャラクター情報 -->
+        <div class="character-info-full">
+            <h1>ラヴィ</h1>
+            <p class="description">
+                ラヴィ・シュシュマルシュは、カードで攻撃することで回復を行える「吸血型」の特殊タンクです。
+                攻撃カードに回復効果が付与されるアビリティを持ち、攻めながら耐久することができます。
+                HAで遠くの敵を引き寄せつつ、チャンスがあれば攻撃カードで大ダメージと回復を狙えます。
+            </p>
+            <p class="description">ご自身の腕が試されるちょいムズキャラクターです。あと男です。</p>
+
+            <!-- スキル情報 -->
+            <div class="skill-section">
+                <h2>スキル</h2>
+
+                <div class="skill-item">
+                    <h3>HS（ヒーロースキル）</h3>
+                    <p class="skill-name">ラヴィが根こそぎ 絞り取ってあげる♂</p>
+                    <p class="skill-desc">周囲の敵を引き寄せながらライフを吸収し続けるエリアを展開</p>
+                </div>
+
+                <div class="skill-item">
+                    <h3>HA（ヒーローアクション）</h3>
+                    <p class="skill-name">引き寄せ / ザ～コザ～コ♂</p>
+                    <p class="skill-desc">前方の敵に対して範囲攻撃を行う</p>
+                </div>
+
+                <div class="skill-item">
+                    <h3>アビリティ</h3>
+                    <p class="skill-name">チャーミング・キス♂</p>
+                    <p class="skill-desc">攻撃カードでダメージを与えたとき、与ダメージの一定割合をライフ吸収</p>
+                </div>
+            </div>
+
+            <!-- ステータス -->
+            <div class="status-section">
+                <h2>ステータス</h2>
+                <table class="status-table">
+                    <tbody>
+                        <tr>
+                            <td>攻撃</td>
+                            <td>1.40</td>
+                        </tr>
+                        <tr>
+                            <td>防御</td>
+                            <td>0.50</td>
+                        </tr>
+                        <tr>
+                            <td>体力</td>
+                            <td>1.40</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- テーマソング -->
+    <div class="theme-song">
+        <h2>テーマソング</h2>
+        <p class="song-title">「ラヴィ」 - すりぃ</p>
+        <a href="https://www.youtube.com/watch?v=mq88yUFdVng" target="_blank" class="youtube-link">
+            <div class="youtube-thumbnail">
+                <img src="https://img.youtube.com/vi/mq88yUFdVng/hqdefault.jpg" alt="ラヴィ">
+                <div class="play-button"></div>
+            </div>
+            <p class="youtube-text">▶ YouTubeで見る</p>
+        </a>
+        <p class="youtube-notice">※クリックするとYouTubeの外部サイトに移動します</p>
+    </div>
+
+    <div class="back-link">
+        <a href="tank.html">← タンク一覧に戻る</a>
+        <a href="../最終課題.html">TOPに戻る</a>
+    </div>
+</body>
+
+</html>

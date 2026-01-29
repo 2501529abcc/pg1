@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>狐ヶ崎甘色 - #コンパス</title>
+    <link rel="stylesheet" href="../css/compass.css">
+    <script src="../js/script.js" defer></script>
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="../最終課題.html">TOP</a></li>
+            <li class="active">HERO</li>
+            <li onclick="handleSecretClick()" style="cursor: pointer;">SECRET</li>
+        </ul>
+    </nav>
+
+    <div class="character-detail-full">
+        <!-- 左側：キャラクター画像 -->
+        <div class="character-image-large">
+            <img src="../img/amairo.png" alt="狐ヶ崎甘色">
+        </div>
+
+        <!-- 右側：キャラクター情報 -->
+        <div class="character-info-full">
+            <h1>狐ヶ崎甘色</h1>
+            <p class="description">
+                狐ヶ崎甘色は、通常攻撃の間合いがアタッカーの中で最も広いヒーローです。
+                アビリティ「万象合一」により、HA成功後にさらに攻撃範囲が広がります。
+                HA「居合いカウンター / 甘色一閃」で敵の攻撃を無効化しつつ反撃する、強力なカウンター使いです。
+            </p>
+            <p class="description">
+                相手の癖や読みを利用して戦うため、自身の手で戦況を進めることができます。
+                あなたの行動次第で勝ちが決まる。そんなキャラクターです。
+            </p>
+
+            <!-- スキル情報 -->
+            <div class="skill-section">
+                <h2>スキル</h2>
+
+                <div class="skill-item">
+                    <h3>HS（ヒーロースキル）</h3>
+                    <p class="skill-name">¦¦¦狐憑き¦¦¦ 無銘ノ飛刃</p>
+                    <p class="skill-desc">通常攻撃の間合いが超絶拡張（障害物無視＋ガード貫通）</p>
+                </div>
+
+                <div class="skill-item">
+                    <h3>HA（ヒーローアクション）</h3>
+                    <p class="skill-name">居合いカウンター / 甘色一閃</p>
+                    <p class="skill-desc">構え中に攻撃を受けると無効化し、反撃を行う</p>
+                </div>
+
+                <div class="skill-item">
+                    <h3>アビリティ</h3>
+                    <p class="skill-name">¦¦¦狐憑き¦¦¦ 万象合一</p>
+                    <p class="skill-desc">通常攻撃の範囲拡大（HA成功でさらに拡大）</p>
+                </div>
+            </div>
+
+            <!-- ステータス -->
+            <div class="status-section">
+                <h2>ステータス</h2>
+                <table class="status-table">
+                    <tbody>
+                        <tr>
+                            <td>攻撃</td>
+                            <td>1.30</td>
+                        </tr>
+                        <tr>
+                            <td>防御</td>
+                            <td>0.75</td>
+                        </tr>
+                        <tr>
+                            <td>体力</td>
+                            <td>0.90</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- テーマソング -->
+    <div class="theme-song">
+        <h2>テーマソング</h2>
+        <p class="song-title">「萌す心を」 - 一二三</p>
+        <a href="https://www.youtube.com/watch?v=_oLA_7lM7aY" target="_blank" class="youtube-link">
+            <div class="youtube-thumbnail">
+                <img src="https://img.youtube.com/vi/_oLA_7lM7aY/hqdefault.jpg" alt="萌す心を">
+                <div class="play-button"></div>
+            </div>
+            <p class="youtube-text">▶ YouTubeで見る</p>
+        </a>
+        <p class="youtube-notice">※クリックするとYouTubeの外部サイトに移動します</p>
+    </div>
+
+    <div class="back-link">
+        <a href="attacker.html">← アタッカー一覧に戻る</a>
+        <a href="../最終課題.html">TOPに戻る</a>
+    </div>
+</body>
+
+</html>

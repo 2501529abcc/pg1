@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>レイヤ - #コンパス</title>
+    <link rel="stylesheet" href="../css/compass.css">
+    <script src="../js/script.js" defer></script>
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="../最終課題.html">TOP</a></li>
+            <li class="active">HERO</li>
+            <li onclick="handleSecretClick()" style="cursor: pointer;">SECRET</li>
+        </ul>
+    </nav>
+
+    <div class="character-detail-full">
+        <!-- 左側：キャラクター画像 -->
+        <div class="character-image-large">
+            <img src="../img/reiya.png" alt="レイヤ">
+        </div>
+
+        <!-- 右側：キャラクター情報 -->
+        <div class="character-info-full">
+            <h1>零夜</h1>
+            <p class="description">
+                零夜（レイヤ）は、高い攻撃力を誇るキル型スプリンターです。
+                ダッシュ中にプラズマをまとい、触れた相手をちょっとの間スタンさせる強力なアビリティを持っています。
+                HSは自動追尾する分身を召喚し、敵を妨害・攻撃します。
+            </p>
+            <p class="description">かなりトリッキーなキャラクターです。気づかれずに後ろからスタンを狙い、キルをもぎとりましょう。</p>
+
+            <!-- スキル情報 -->
+            <div class="skill-section">
+                <h2>スキル</h2>
+
+                <div class="skill-item">
+                    <h3>HS（ヒーロースキル）</h3>
+                    <p class="skill-name">シークレットオーダー【δ】</p>
+                    <p class="skill-desc">敵を自動追尾する「自分」を召喚し、爆発してダメージ＋スタン</p>
+                </div>
+
+                <div class="skill-item">
+                    <h3>HA（ヒーローアクション）</h3>
+                    <p class="skill-name">ダッシュ</p>
+                    <p class="skill-desc">長押しで素早く移動する</p>
+                </div>
+
+                <div class="skill-item">
+                    <h3>アビリティ</h3>
+                    <p class="skill-name">ミスティックアーツ【Δ】</p>
+                    <p class="skill-desc">ダッシュ中プラズマをまとい、敵に接触するとスタンさせる</p>
+                </div>
+            </div>
+
+            <!-- ステータス -->
+            <div class="status-section">
+                <h2>ステータス</h2>
+                <table class="status-table">
+                    <tbody>
+                        <tr>
+                            <td>攻撃</td>
+                            <td>1.35</td>
+                        </tr>
+                        <tr>
+                            <td>防御</td>
+                            <td>0.75</td>
+                        </tr>
+                        <tr>
+                            <td>体力</td>
+                            <td>0.95</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- テーマソング -->
+    <div class="theme-song">
+        <h2>テーマソング</h2>
+        <p class="song-title">「パラレルレイヤー」 - lumo</p>
+        <a href="https://www.youtube.com/watch?v=AegqO851dwY" target="_blank" class="youtube-link">
+            <div class="youtube-thumbnail">
+                <img src="https://img.youtube.com/vi/AegqO851dwY/hqdefault.jpg" alt="パラレルレイヤー">
+                <div class="play-button"></div>
+            </div>
+            <p class="youtube-text">▶ YouTubeで見る</p>
+        </a>
+        <p class="youtube-notice">※クリックするとYouTubeの外部サイトに移動します</p>
+    </div>
+
+    <div class="back-link">
+        <a href="sprinter.html">← スプリンター一覧に戻る</a>
+        <a href="../最終課題.html">TOPに戻る</a>
+    </div>
+</body>
+
+</html>

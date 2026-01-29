@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>リリカ - #コンパス</title>
+    <link rel="stylesheet" href="../css/compass.css">
+    <script src="../js/script.js" defer></script>
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="../最終課題.html">TOP</a></li>
+            <li class="active">HERO</li>
+            <li onclick="handleSecretClick()" style="cursor: pointer;">SECRET</li>
+        </ul>
+    </nav>
+
+    <div class="character-detail-full">
+        <!-- 左側：キャラクター画像 -->
+        <div class="character-image-large">
+            <img src="../img/ririka.png" alt="リリカ">
+        </div>
+
+        <!-- 右側：キャラクター情報 -->
+        <div class="character-info-full">
+            <h1>リリカ</h1>
+            <p class="description">
+                リリカは、全ヒーロー中最も長い射程距離を持つガンナーです。
+                ソーンと違い攻撃面は少し落ちています。
+                HS「チアアップ」で味方を強化し、チームの勝利に貢献し、
+                アビリティにより、自陣ポータルエリアを守る味方の攻撃力を底上げできるため防衛戦でも活躍します。
+                長射程のガンナーですが、ソーンと違い攻撃面は少し落ちています
+            </p>
+            <p class="description">支援を行い味方と自身を強化しつつ戦うバッファー役です。同じ<a
+                    href="../attacker/ruruka.html">"魔法少女"がもう一人いる</a>のでそちらと一緒に戦うのが良いでしょう。ただし、リリカを死なせないように。</p>
+
+            <!-- スキル情報 -->
+            <div class="skill-section">
+                <h2>スキル</h2>
+
+                <div class="skill-item">
+                    <h3>HS（ヒーロースキル）</h3>
+                    <p class="skill-name">チアアップ</p>
+                    <p class="skill-desc">味方を魅了し、一時的に攻撃力と防御力を超アップ（どこにいても有効）</p>
+                </div>
+
+                <div class="skill-item">
+                    <h3>HA（ヒーローアクション）</h3>
+                    <p class="skill-name">タメ攻撃 / ドリーム☆バキューン</p>
+                    <p class="skill-desc">長押しで射程距離の長い一撃を放ち、敵をノックバックさせる</p>
+                </div>
+
+                <div class="skill-item">
+                    <h3>アビリティ</h3>
+                    <p class="skill-name">わたしのために がんばって</p>
+                    <p class="skill-desc">防衛中のポータルエリア内にいる味方の攻撃力アップ</p>
+                </div>
+            </div>
+
+            <!-- ステータス -->
+            <div class="status-section">
+                <h2>ステータス</h2>
+                <table class="status-table">
+                    <tbody>
+                        <tr>
+                            <td>攻撃</td>
+                            <td>1.20</td>
+                        </tr>
+                        <tr>
+                            <td>防御</td>
+                            <td>0.80</td>
+                        </tr>
+                        <tr>
+                            <td>体力</td>
+                            <td>0.85</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- テーマソング -->
+    <div class="theme-song">
+        <h2>テーマソング</h2>
+        <p class="song-title">「アルカリレットウセイ」 - かいりきベア</p>
+        <a href="https://www.youtube.com/watch?v=zLmopbS97aY" target="_blank" class="youtube-link">
+            <div class="youtube-thumbnail">
+                <img src="https://img.youtube.com/vi/zLmopbS97aY/hqdefault.jpg" alt="アルカリレットウセイ">
+                <div class="play-button"></div>
+            </div>
+            <p class="youtube-text">▶ YouTubeで見る</p>
+        </a>
+        <p class="youtube-notice">※クリックするとYouTubeの外部サイトに移動します</p>
+    </div>
+
+    <div class="back-link">
+        <a href="gunner.html">← ガンナー一覧に戻る</a>
+        <a href="../最終課題.html">TOPに戻る</a>
+    </div>
+</body>
+
+</html>
